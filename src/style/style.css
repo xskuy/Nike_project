@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,700;1,700&display=swap");
+
+.carousel-item {
+  height: 680px;
+
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 60% 40%;
+  }
+
+  & .carousel-item .curry {
+    object-position: 25% 75%;
+  }
+}
