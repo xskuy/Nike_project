@@ -1,14 +1,14 @@
 $(document).ready(function() {
   $('#personal-info-form').on('submit', function(event) {
-    event.preventDefault(); // Prevenir el envío del formulario
+    event.preventDefault(); 
 
-    // Limpiar errores previos
+
     $('input, textarea').removeClass('error');
     $('.error-message').remove();
 
     var isValid = true;
 
-    // Validar nombre
+
     var firstName = $('#first-name').val().trim();
     if (firstName === '') {
       $('#first-name').addClass('error');
@@ -16,7 +16,7 @@ $(document).ready(function() {
       isValid = false;
     }
 
-    // Validar apellido
+
     var lastName = $('#last-name').val().trim();
     if (lastName === '') {
       $('#last-name').addClass('error');
@@ -24,7 +24,7 @@ $(document).ready(function() {
       isValid = false;
     }
 
-    // Validar correo electrónico
+
     var email = $('#email').val().trim();
     var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     if (email === '') {
@@ -37,7 +37,7 @@ $(document).ready(function() {
       isValid = false;
     }
 
-    // Validar mensaje
+
     var message = $('#message').val().trim();
     if (message === '') {
       $('#message').addClass('error');
@@ -45,7 +45,6 @@ $(document).ready(function() {
       isValid = false;
     }
 
-    // Si el formulario es válido, mostrar un mensaje de éxito y borrar los campos
     if (isValid) {
       alert('El formulario ha sido enviado correctamente.');
       $('#personal-info-form')[0].reset();
