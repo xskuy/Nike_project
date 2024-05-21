@@ -6,7 +6,7 @@ El proyecto de Nike es un sitio web que permite a los usuarios comprar productos
 
 El diseño del sitio web se basa en la idea de que Nike es una marca de calidad y duradera, y que los usuarios deben ser motivados a comprar productos de Nike. El sitio web presenta una amplia variedad de productos, incluyendo pantalones, camisetas, jerseys, anklets, etc. Además, el sitio web ofrece una funcionalidad de envío de mensajes para que los usuarios puedan contactar con el equipo de soporte de Nike.
 
-> **Nota**: Este es un proyecto universitario desarrollado para fines académicos y no está asociado oficialmente con la marca Nike.
+> **Nota**: Este es un proyecto universitario desarrollado para fines académicos.
 
 ## Tecnologías Utilizadas 🛠️
 
