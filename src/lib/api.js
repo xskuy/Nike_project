@@ -1,6 +1,6 @@
 const jokeButton = document.getElementById('get-joke');
 const jokeDisplay = document.getElementById('joke-display');
-const imagen = document.getElementById('imagen');
+
 
 jokeButton.addEventListener('click', function() {
   fetch('https://api.chucknorris.io/jokes/random')
