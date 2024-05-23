@@ -23,3 +23,5 @@ El diseño del sitio web se basa en la idea de que Nike es una marca de calidad 
 - **Variedad de Productos**: Amplia gama de productos disponibles para compra.
 - **Formulario de Contacto**: Los usuarios pueden enviar mensajes al equipo de soporte de Nike.
 - **Validación de Formularios**: Validación de campos de formulario para mejorar la experiencia del usuario.
+
+> **Nota**: Si por alguna razon no cargan los estilos, recargue la página o asegúrese de que se hayan descargado todos los archivos necesarios.

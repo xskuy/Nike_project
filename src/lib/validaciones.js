@@ -1,4 +1,6 @@
-$(document).ready(function() {
+
+
+$(document).ready(function () {
   $('#personal-info-form').on('submit', function(event) {
     event.preventDefault(); // Prevenir el envío del formulario
 
